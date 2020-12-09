@@ -1,0 +1,59 @@
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    margin: 0px -3px;
+}
+
+/*Home*/
+#home{
+
+    padding: 0px 0px;
+    padding-bottom: 53px;
+}
+#home p{
+    font-size: 0.8rem;
+}
+#home h1{
+    padding-bottom: 33px;
+}
+
+/*Games*/
+#games{
+    flex-direction: column;
+    margin: 67px 0px;
+}
+.games-container{
+    margin: -69px 0px;
+}
+.games-container::before{
+    background: url(img/bg4.jpg) repeat-y center;
+    height: 187%;
+    background-size: 100% auto;
+}
+
+#games .box{
+    /*flex-direction: column;*/
+    padding: 0px 0px;
+}
+/*Community*/
+#community{
+    padding: 0px 0px;
+    bottom: 0px;
+    /*overflow: hidden;*/
+}
+#commmunity::before{
+    top: 0px;
+    height: 100%;
+}
+#community h1{
+    padding-top: 59px;
+}
+
+/*Utility*/
+.h-primary{
+    font-size: 1.5rem;
+}
